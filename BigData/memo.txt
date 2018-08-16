@@ -14,3 +14,11 @@ print(pat.sub("\g<1>-******, data))
 
 jupyter notebook -ip ~~, -certfile ~~
 
+matplot은 시계열 기능이 없다 
+
+pandas는 2차원까지 고려 
+
+Series를 여러 개 결합하면 하나의 Table이 나온다 ex. NO, NAME 
+
+ndarray : numpy에서 만든 array 
+
