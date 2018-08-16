@@ -1,0 +1,16 @@
+.format()
+
+tuple : 데이터 무결성 
+set 
+
+fibo.append(fibo[-1] + fibo[-2]))
+
+python : 조건문에 아무 것도 들어있지 않을 경우 error 발생하므로 pass를 넣어줘야 한다 
+
+str(list(range(10000))).count('8') 
+
+pat = re.compile("(\d{6})[-]\d{7}")
+print(pat.sub("\g<1>-******, data))
+
+jupyter notebook -ip ~~, -certfile ~~
+
