@@ -1,3 +1,4 @@
+0816
 .format()
 
 tuple : 데이터 무결성 
@@ -21,4 +22,55 @@ pandas는 2차원까지 고려
 Series를 여러 개 결합하면 하나의 Table이 나온다 ex. NO, NAME 
 
 ndarray : numpy에서 만든 array 
+
+=================================================================
+
+0817
+코딩도장
+http://codingdojang.com/
+
+result = sum([i for i in range(1000) if i % 3 == 0 or i % 5 == 0])
+
+pf = pf.rename(columns = {1:11})
+
+pip install html5lib PyMySQL
+
+https://github.com/nsonnad/base16-ipython-notebook
+
+https://onedrive.live.com/?authkey=%21AO_hQewfsll1LfU&cid=EB4F2A403D81809B&id=EB4F2A403D81809B%21164921&parId=EB4F2A403D81809B%21164911&action=locate
+
+index = list(range(1,10))[::-1]
+
+Head First Statistics 임백준 역 
+
+파이썬으로 데이터 주무르기
+
+웨스 맥키니
+
+df1 = pd.read_csv('관서별_5대범죄_발생_및_검거_현황_2000_2016_/2000년.csv', engine="python")
+
+
+H.W. 네이버 영화 댓글 크롤링 후 DataFrame으로 정리 
+
+
+Burp Suite 
+Web <--------------------    Proxy(감시, 변조)     -------------------> Browser 
+
+재즐보프 
+
+google maps api
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
