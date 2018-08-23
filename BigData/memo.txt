@@ -54,14 +54,49 @@ H.W. 네이버 영화 댓글 크롤링 후 DataFrame으로 정리
 
 
 Burp Suite 
-Web <--------------------    Proxy(감시, 변조)     -------------------> Browser 
+Web <-------------------- Proxy(감시, 변조) -------------------> Browser 
 
 재즐보프 
 
 google maps api
 
 
+===============================================================
 
+e+04 : 뒤에 0이 4개 나온다 
+fit : ex) 평균을 찾는다  transform : ex) 값을 바꾼다 
+
+Machine Learning에서 보통 비지도학습은 쓰지 않는다 
+
+
+Regression : 공부한 시간만큼 성적이 향상한다 
+Simple Linear Regression
+ax + b = y
+
+Multiple Linear Regression
+ax1 + bx2 +cx3 + d = y
+
+Polynomial linear Regression
+ax^1 + bx^2 + cx^3 + d
+
+Decision tree : 직관적, 화이트 박스 모델, 복합적 연산에 어려움
+
+
+SVR : Epsilon, cf. SVM 
+
+Neural Network : hidden, 실제 논문보면 그 과정을 보는 경우가 많다 
+
+SSe : Sum Squared Error 
+
+Classification
+Naive-Bayse : 분류에 필요한 데이터 양이 적다, 독립성 가정이 종종 부정확한 결과를 내기도 한다  
+ex. 폐암 진단 정탐 오탐 확률, 
+K 최근접 알고리즘 ex. 원 크기 안에 들어오는 갯수로 판정, k는 홀수 
+
+Logistic Regression : Sigmoid 함수, 선택지가 두 개 
+
+apktool decompiling : binary 분석, code 분석 
+apktool -d ~~
 
 
 
