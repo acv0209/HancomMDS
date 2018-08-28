@@ -1,0 +1,110 @@
+source activate ml_sec 
+
+
+pip install seaborn 
+
+정적 분석
+ex) Hello World printf("Hello World");
+Program
+header 
+data : code data1 data2 ...
+이 때 hello world는 데이터이다 
+
+동적 분석
+프로그램(Memory) <--> OS
+ex) 행위 분석 
+
+보통 악성코드 탐지모델 
+기존 파일 hashing 값과 일치여부 확인 -> 정적 분석 -> 동적 분석 
+sandbox??emulation 
+
+PE 파일 
+PE header 1) 빌려오는 기능??2) 코드 영역??
+
+Explorer Suite
+
+https://www.naftaliharris.com/blog/visualizing-k-means-clustering/ 
+
+컴퓨터가 학습하는 방법
+= 아무렇게나 그리기
+= 비용 계산 
+= 선 조정
+= 비용이 최소가 되면 중단
+
+주성분분석(PCA)
+차원의 저주 
+차원을 줄이면서 정보의 손실을 최소화한다 
+But 결과에 대한 근거가 부족하다 
+
+주성분을 기준으로 차원을 뒤틀어서 손실을 최소화
+
+autoencoder
+
+의사 결정 트리
+랜덤 포레스트
+
+인스턴스 기반 학습
+최근점 알고리즘
+
+서포트 벡터 머신 SVM
+커널 트릭
+SVM을 쓰게 되면 
+
+python??loc, iloc 
+
+선을 나누는 용으로 쓰느냐, 아니면 이용할 것에 따라 
+Classification, Regression 으로 나뉜다
+
+이상 탐지 
+Classification을 할 경우 문제가 발생할 수 있다 
+
+선을 그을 만큼 패턴을 만들 수 없어서 이상 데이터는 Classification을 이용하지 않는다
+
+뉴럴 네트워크
+퍼셉트론 
+시그모이드??임계치 
+
+y = 20*x1 + 20*x2 -30
+
+x1??x2??y
+0??  0 ??-30??0
+0??  1 ??-10??0
+1??  0 ??-10??0
+1??  1??  10?? 1
+
+or??and??xor
+
+a0 = 1
+a1(2) = 4x1 + 4x2 -7 
+a2(2) = -5x1 + -5x2 + 3 
+a1(3) = -10*S(al(2)) + -10*S(a2(2)) + 7 
+
+output?==>?S(a1(3))
+
+
+머신러닝 고려 요소(비 뉴럴 네트워크)
+- 학습에 사용할 데이터 분리 : 렌덤, k-fold 
+- 특징 선택 : 개별 특성, 특징간 관계, 차원 축소 
+- 모델 알고리즘 선택 : 단일, 다중 설계
+- 모델 평가 방식 : 정확도, 정밀도, 재현율 
+- 모델 옵션(파라미터)?ex) SVM
+
+딥러닝 고려 요소 
+- 레이어 개수 및 깊이 
+- 네트워크 설계
+- 가중치 초기화 방식
+- 활성화 함수 
+- 출력값 결정 
+- Learning Rate 값
+- 배치 사이즈 : 앙상블 개념처럼 데이터를 쪼개서 쓰는 것
+- Epoch 횟수
+- Optimizer 
+- etc
+
+
+
+
+
+
+
+
